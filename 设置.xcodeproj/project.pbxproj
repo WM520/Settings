@@ -15,6 +15,12 @@
 		E442FB681F668EC400F77278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E442FB661F668EC400F77278 /* LaunchScreen.storyboard */; };
 		E442FB731F668EC400F77278 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E442FB721F668EC400F77278 /* __Tests.m */; };
 		E442FB7E1F668EC400F77278 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E442FB7D1F668EC400F77278 /* __UITests.m */; };
+		E442FB8F1F668EE400F77278 /* XBSettingItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E442FB8C1F668EE400F77278 /* XBSettingItemModel.m */; };
+		E442FB901F668EE400F77278 /* XBSettingSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E442FB8E1F668EE400F77278 /* XBSettingSectionModel.m */; };
+		E442FB961F668F1800F77278 /* XBSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E442FB951F668F1800F77278 /* XBSettingCell.m */; };
+		E442FB9A1F668FCC00F77278 /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E442FB991F668FCC00F77278 /* UIView+Extensions.m */; };
+		E442FB9E1F66930C00F77278 /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = E442FB9D1F66930C00F77278 /* HeadView.m */; };
+		E442FBA01F66935500F77278 /* HeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E442FB9F1F66935500F77278 /* HeadView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		E442FB791F668EC400F77278 /* 设置UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "设置UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E442FB7D1F668EC400F77278 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		E442FB7F1F668EC400F77278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E442FB8B1F668EE400F77278 /* XBSettingItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBSettingItemModel.h; sourceTree = "<group>"; };
+		E442FB8C1F668EE400F77278 /* XBSettingItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBSettingItemModel.m; sourceTree = "<group>"; };
+		E442FB8D1F668EE400F77278 /* XBSettingSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBSettingSectionModel.h; sourceTree = "<group>"; };
+		E442FB8E1F668EE400F77278 /* XBSettingSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBSettingSectionModel.m; sourceTree = "<group>"; };
+		E442FB941F668F1800F77278 /* XBSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBSettingCell.h; sourceTree = "<group>"; };
+		E442FB951F668F1800F77278 /* XBSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBSettingCell.m; sourceTree = "<group>"; };
+		E442FB971F668F2B00F77278 /* XBConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBConst.h; sourceTree = "<group>"; };
+		E442FB981F668FCC00F77278 /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
+		E442FB991F668FCC00F77278 /* UIView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extensions.m"; sourceTree = "<group>"; };
+		E442FB9C1F66930C00F77278 /* HeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadView.h; sourceTree = "<group>"; };
+		E442FB9D1F66930C00F77278 /* HeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadView.m; sourceTree = "<group>"; };
+		E442FB9F1F66935500F77278 /* HeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,14 @@
 		E442FB571F668EC400F77278 /* 设置 */ = {
 			isa = PBXGroup;
 			children = (
+				E442FB9B1F6692E900F77278 /* lib */,
 				E442FB5B1F668EC400F77278 /* AppDelegate.h */,
 				E442FB5C1F668EC400F77278 /* AppDelegate.m */,
 				E442FB5E1F668EC400F77278 /* ViewController.h */,
 				E442FB5F1F668EC400F77278 /* ViewController.m */,
+				E442FB9C1F66930C00F77278 /* HeadView.h */,
+				E442FB9D1F66930C00F77278 /* HeadView.m */,
+				E442FB9F1F66935500F77278 /* HeadView.xib */,
 				E442FB611F668EC400F77278 /* Main.storyboard */,
 				E442FB641F668EC400F77278 /* Assets.xcassets */,
 				E442FB661F668EC400F77278 /* LaunchScreen.storyboard */,
@@ -138,6 +160,22 @@
 				E442FB7F1F668EC400F77278 /* Info.plist */,
 			);
 			path = "设置UITests";
+			sourceTree = "<group>";
+		};
+		E442FB9B1F6692E900F77278 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E442FB981F668FCC00F77278 /* UIView+Extensions.h */,
+				E442FB991F668FCC00F77278 /* UIView+Extensions.m */,
+				E442FB971F668F2B00F77278 /* XBConst.h */,
+				E442FB941F668F1800F77278 /* XBSettingCell.h */,
+				E442FB951F668F1800F77278 /* XBSettingCell.m */,
+				E442FB8B1F668EE400F77278 /* XBSettingItemModel.h */,
+				E442FB8C1F668EE400F77278 /* XBSettingItemModel.m */,
+				E442FB8D1F668EE400F77278 /* XBSettingSectionModel.h */,
+				E442FB8E1F668EE400F77278 /* XBSettingSectionModel.m */,
+			);
+			name = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +286,7 @@
 			files = (
 				E442FB681F668EC400F77278 /* LaunchScreen.storyboard in Resources */,
 				E442FB651F668EC400F77278 /* Assets.xcassets in Resources */,
+				E442FBA01F66935500F77278 /* HeadView.xib in Resources */,
 				E442FB631F668EC400F77278 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +312,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E442FB961F668F1800F77278 /* XBSettingCell.m in Sources */,
+				E442FB9A1F668FCC00F77278 /* UIView+Extensions.m in Sources */,
+				E442FB9E1F66930C00F77278 /* HeadView.m in Sources */,
 				E442FB601F668EC400F77278 /* ViewController.m in Sources */,
 				E442FB5D1F668EC400F77278 /* AppDelegate.m in Sources */,
 				E442FB5A1F668EC400F77278 /* main.m in Sources */,
+				E442FB901F668EE400F77278 /* XBSettingSectionModel.m in Sources */,
+				E442FB8F1F668EE400F77278 /* XBSettingItemModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
