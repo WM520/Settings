@@ -471,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "设置/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "animation.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "设置/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "animation.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -553,6 +555,7 @@
 				E442FB841F668EC400F77278 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E442FB851F668EC400F77278 /* Build configuration list for PBXNativeTarget "设置Tests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +564,7 @@
 				E442FB871F668EC400F77278 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E442FB881F668EC400F77278 /* Build configuration list for PBXNativeTarget "设置UITests" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +573,7 @@
 				E442FB8A1F668EC400F77278 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
