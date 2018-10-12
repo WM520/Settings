@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "WMSettings"
   s.version      = "0.0.1"
-  s.summary      = "A short description of WMSettings."
+  s.summary      = "一个快速集成设置页面的lib"
   s.ios.deployment_target = '8.0'
 
   # This description is used to generate tags and improve search results.
@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  Lib for a quick integration setup page on iOS, which implement by Objective-C.
                    DESC
 
   s.homepage     = "https://github.com/WM520/Settings.git"
